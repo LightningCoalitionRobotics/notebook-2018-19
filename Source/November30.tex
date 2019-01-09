@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\begin{document}
+
+% Add date (e.g. September 14, 2018) and then your name/all authors.
+November 30 - Gabe Ruoff
+
+\section{Our Plan:}
+\begin{itemize}
+% After \item, add what you want for the bullet point. (\item adds a new bullet point when you run out.)
+	\item Resolve bugs in autonomous code causing the bot to not go straight.
+	\item Fix error deviation issues between big and small encoders.
+\end{itemize}
+
+We wanted to fix tuning issues with the encoders and the robot's drive function. Thinking that the difference in error distributions between the two encoders' outputs was to blame, we wanted to scale the error of the more precise one up to the error of the less procise one.
+
+\section{What We Got Done:}
+
+We scaled up the error, causing the robot to drive pretty much straight.
+
+\section{What We Didn't Get Done:}
+
+We didn't get the robot driving perfectly straight and still had some minor errors.
+
+\section{Next Practice:}
+
+Swap the small encoder for a second big encoder so that both sides of the drive chain are working with the same encoder system. Should resolve our lingering straightness issues.
+
+\end{document}
