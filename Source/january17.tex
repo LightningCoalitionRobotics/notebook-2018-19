@@ -1,0 +1,75 @@
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+% Welcome to the notebook template. When every you see this symbol, %, it means that there is a comment and that it will not show up on the finished page. The notebook as shown is written in the coding language, LaTex; this language is an official notebook language for engineers, which is the main reason why we are using it. You can make a copy of this document if you like, but be sure to change everything that the comments tell you to change. This guide is made so that you (the person writing the notebook) doesn't have to know LaTex. But to make the notebook into the pdf that it needs to be, please download Texmaker (http://www.xm1math.net/texmaker/index.html). It allows one to code in LaTex and transfer a LaTex document to PDF form. Please also post both forms of your notebook in the NOTEBOOK folder on Google Drive. Remember to name it by date (e.g. september14.pdf). You can delete this comment section if you want. (everything in between the big long lines.) Good luck. Have fun.
+% - Griffin Dugan.
+%---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\documentclass[12pt]{article}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagenumbering{Roman}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\setlength{\headheight}{25pt}
+\rhead{\textbf{Lightning Coalition Robotics}}
+\cfoot{}
+\rfoot{\thepage}
+\begin{document}
+
+% Add date (e.g. September 14, 2018) and then your name/all authors.
+January 17, 2018 - Noah Simon
+
+\section{Our Plan:} % Pretty self explainatory... In this section explain the team's plan.
+\begin{itemize}
+% After \item, add what you want for the bullet point. (\item adds a new bullet point when you run out.)
+	\item Debrief competition
+	\item Fix autonomous program
+	\item Design part to bring elements to lander
+	\item Practice driving
+	\item Finish API wrapper
+\end{itemize}
+
+% Now add a paragraph explaining your plan. You should reference the bullet points above.
+Welcome to LCR 2018-19, season 2! Our next qualifier is in about a month, so we need to debrief the last one and start fixing the many things that went wrong. First of all, the autonomous program we used needs tweaking. (At the competition, it never worked all the way through.) Also, we noticed many teams were able to reliably put elements in the lander, so we need to come up with ideas to get us to that point. Finally, we realized a bit too late that our drivers never actually practiced driving the robot before the competition, so we would like that to happen more before our next competition. We can also train more drivers so more people get involved. Apart from troubleshooting, the API wrapper for simplifying the coding learning curve is almost complete, so Noah will hopefully finish that up today or next week.
+
+\section{What We Got Done:} % Just like the above, explain what the team got done during practice.
+\begin{itemize}
+% After \item, add what you want for the bullet point. (\item adds a new bullet point when you run out.)
+	\item Designated location for claw device
+	\item Created designs for scissor lift
+	\item Started building cardboard prototype for scissor lift
+	\item Prepared robot for redesign
+\end{itemize}
+
+% Now add a paragraph explaining what you got done and the reasons behind it. You should reference the bullet points above.
+After talking about what we need to improve upon for next competition, we split into taskforces to accomplish each individual item. We came up with a couple of designs to bring elements to the lander, namely a scissor lift and a claw. We started the design and build process for each of these, and we will determine which ones work out better.
+
+\section{What We Didn't Get Done:} % Explain what the team didn't get done during practice.
+\begin{itemize}
+% After \item, add what you want for the bullet point. (\item adds a new bullet point when you run out.)
+	\item Finish wrapper API
+	\item Brace and test stronkboi
+	\item Make base for scissor lift
+\end{itemize}
+
+% Now add a paragraph explaining what you didn't get done and the reasons behind it. You should reference the bullet points above.
+Noah was unable to test code on the robot today, so not much progress was made on the API. Our "stronkboi," the arm to lift the robot off the ground, had some issues at the competition so we were planning to try bracing it against more weight, but didn't get around to that this week. Finally, the scissor lift team was unable to finish their base for the lift.
+
+\section{Next Practice:}
+\begin{itemize}
+% After \item, add what you want for the bullet point. (\item adds a new bullet point when you run out.)
+	\item Finish wrapper API
+	\item Build arm
+	\item Build scissor lift
+	\item Brace and test stronkboi
+	\item Reattach electronics
+\end{itemize}
+
+% Now add a paragraph explaining what the plan for next practice should be. You should reference the bullet points above.
+The next practice is this Saturday, January 19. % And then continue the paragraph.
+With more time than we had today, the API should be complete and ready for testing next practice. We want to build both the claw and the scissor lift and see which works better, as well as brace the stronkboi as described above. Also, the robot has been stripped of its electronics for the time being, so we need to reattach them before we continue further.
+
+\end{document}
